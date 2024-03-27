@@ -13,10 +13,6 @@ from utils.train_utils import get_model, get_log_name
 
 from attack_adaptive import test_attack_adaptive
 
-import wandb
-
-wandb.login()
-
 torch.cuda.manual_seed_all(0)
 torch.manual_seed(0)
 np.random.seed(0)
@@ -28,6 +24,9 @@ torch.backends.cudnn.enabled = True
 def evaluate(description):
     load_cfg_fom_args(description)
     if cfg.wandb:
+        import wandb
+
+        wandb.login()
         wandb.init(
             project=cfg.project,
             config=cfg,
