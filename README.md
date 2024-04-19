@@ -1,6 +1,6 @@
 # MedBN-robust-test-time-adpatation
 [CVPR 2024] Official implementation of [MedBN: Robust Test Time Adaptation against Malicious Test Samples](https://arxiv.org/abs/2403.19326) by Hyejin Park\*, Jeongyeon Hwang\*, Sunung Mun, Sangdon Park, and Jungseul Ok
-
+(also in [ML-POSTECH](https://github.com/ml-postech/MedBN-robust-test-time-adaptation))
 
 ## Requirements
 - [RobustBench](https://github.com/RobustBench/robustbench)
