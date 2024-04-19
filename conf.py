@@ -180,7 +180,7 @@ _C.RNG_SEED = 1
 _C.SAVE_DIR = "./outputs"
 
 # Data directory
-_C.DATA_DIR = "/hdd/hdd1/cifar_corrupted"
+_C.DATA_DIR = "./data"
 
 # Log destination (in SAVE_DIR)
 _C.LOG_DEST = "log.txt"
